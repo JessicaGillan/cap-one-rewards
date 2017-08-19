@@ -48,6 +48,30 @@ class Card
           }
         }
       ]
+    },
+    "Capital One Visa Platinum": {
+      "productId": "SB2dd21f6823b44777b085cec8f104b93f",
+      "productDisplayName": "Capital One® VentureOne® Rewards Credit Card",
+      "applyNowLink": "https://goto.capitalone.com/c/mpid/344893/5048?prodsku=SB2dd21f6823b44777b085cec8f104b93f&p.prodline=USCIR&p.lid=L&u=https%3A%2F%2Fwww.capitalone.com%2Fcredit-cards%2Fventureone",
+      "productType": "ConsumerCard",
+      "brandName": "VentureOne",
+      "rewards": [
+        {
+          "rewardsTiers": [
+            {
+              "tier": 1,
+              "value": 1.567,
+              "type": "Miles",
+              "terms": "per dollar on every purchase, every day"
+            }
+          ],
+          "rewardsBonus": {
+            "rewardsBonusValue": 20000,
+            "rewardsBonusType": "Miles",
+            "rewardsBonusTerms": "once you spend $1,000 on purchases within 3 months from account opening"
+          }
+        }
+      ]
     }
   }
   
@@ -73,6 +97,19 @@ class Card
       {
         "issuer":"Capital One",
         "product":"VentureOne",
+        "network":"MasterCard",
+        "lastFour":"4734",
+        "isBusinessAccount":false
+      }
+    },
+    {
+      "rewardsAccountReferenceId":"a3774c0661b46be503d62",
+      "accountDisplayName":"Capital One Mastercard Worldcard Cash *4734",
+      "rewardsCurrency":"Cash","productAccountType":"Credit Card",
+      "creditCardAccount":
+      {
+        "issuer":"Capital One",
+        "product":"Visa Platinum",
         "network":"MasterCard",
         "lastFour":"4734",
         "isBusinessAccount":false

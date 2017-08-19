@@ -16,6 +16,7 @@ class CardsController < ApplicationController
       }
     end
       
+    @amount = params[:amount] || 96.73
     @cards = Card.get_reward_options(options)
   end
   

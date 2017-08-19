@@ -8,7 +8,7 @@ CLIENT_ID = 'vgw3sf4f8nq3b98i1gdfr8wpx4gpty0ska52'
 CLIENT_SECRET = 'eb5f6rda6v0d1ld8y4fymkudo86gorrc47cj'
 
 # REDIRECT_URI = 'https://rewardsranker.herokuapp.com/login'
-REDIRECT_URI = 'http://localhost:3000/login'
+REDIRECT_URI = 'https://rewardsranker.herokuapp.com/login'
 
 # Public: Make the HTTP call to TMDB to grab the most poopular movies
 #

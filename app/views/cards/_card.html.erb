@@ -1,12 +1,7 @@
 <li>
-  <div class="<%= greyed_out?(task) %>">
-    <%= (task.priority ? "[ #{task.priority} ]" : "" ) %>
-    <%= task.description %>, complete by
-    <%= task.completion_date %>
-    <%= link_to "See Task", task_path(task.id) %>
-    <%= link_to "Edit", edit_task_path(task.id) %>
-    <%= link_to "Delete", task_path(task.id), method: :delete %>
-    <%= render partial: 'shared/mark_complete', locals: { task: task } %>
-    <%= render partial: 'shared/text', locals: { task: task } %>
+  <div>
+    <%= card[:name] %>
+    <%= card[:earnings] %>
+    <%= card[:cash_value] %>
   </div>
 </li>
